@@ -4,7 +4,7 @@ These are some e-book HTML templates.
 
 And tags begin with "{_", and end with "_}".
 
-Use regular expressions to match them, and then replace them.
+Please use regular expressions to match them, and then replace them.
 
 ================================================
 #File directory tree
