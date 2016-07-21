@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Font Color & Background</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="Author" content="Jacky Yu">
+	<style>
+		ul{width:888px; border:0; padding:0; margin:80px auto;}
+		li{
+			list-style:none;float:left; width:30px; height:30px; line-height:30px;
+			padding:0; margin:2px; cursor:pointer; border:2px solid #ff0000;text-align:center;
+		}
+		div{width:600px; margin:0 auto; line-height:50px; font-size:25px;}
+	</style>
+</head>
+<body>
+	<ul>
+		<li style="background: #fbfbea; color: #000;">1</li>
+		<li style="background: #d5f3f4; color: #000;">2</li>
+		<li style="background: #d7fff0; color: #000;">3</li>
+		<li style="background: #f0dad2; color: #000;">4</li>
+		<li style="background: #ddf3ff; color: #000;">5</li>
+		<li style="background: #f1fafa; color: #000;">6</li>
+		<li style="background: #e8ffe8; color: #000;">7</li>
+		<li style="background: #e8e8ff; color: #000;">8</li>
+		<li style="background: #8080c0; color: #fff;">9</li>
+		<li style="background: #e8d098; color: #0000ff;">10</li>
+		<li style="background: #f2f1d7; color: #000;">11</li>
+		<li style="background: #efefda; color: #ff0000;">12</li>
+		<li style="background: #336699; color: #ffffff;">13</li>
+		<li style="background: #6699cc; color: #ffffff;">14</li>
+		<li style="background: #66cccc; color: #ffffff;">15</li>
+		<li style="background: #b45b3e; color: #ffffff;">16</li>
+		<li style="background: #479ac7; color: #ffffff;">17</li>
+		<li style="background: #00b271; color: #ffffff;">18</li>
+		<li style="background: #c7edcc; color: #000;">19</li>
+		<li style="background: #9acd32; color: #000;">20</li>
+	</ul>
+	<div style="clear:both;"></div>
+	<div><br />
+		一张网页，要经历怎样的过程，才能抵达用户面前？<br />
+		一位新人，要经历怎样的成长，才能站在技术之巅？<br />
+		探寻这里的秘密；<br />
+		体验这里的挑战；<br />
+		成为这里的主人；<br />
+		加入这里，你，可以影响世界。<br />
+		<b>QQ群（334683103）</b>。
+	</div>
+	<script language="javaScript">
+		var setColor = function(event){
+			var obj = this.style? this: event.srcElement;
+			document.body.style.color = obj.style.color;
+			document.body.style.backgroundColor = obj.style.backgroundColor;
+		};
+		function addClickEvent(){
+			var elems = document.getElementsByTagName("li");
+			for(var i=0; i<elems.length; i++){
+				elems[i].addEventListener? elems[i].addEventListener( "click", setColor, false ): elems[i].attachEvent("onclick", setColor);
+			}
+		}
+		addClickEvent();
+	</script>
+</body>
+</html>
