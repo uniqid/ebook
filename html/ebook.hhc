@@ -9,12 +9,20 @@
 </OBJECT>
 <UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="1.htm">
+		<param name="Name" value="背景设置示例">
 		<param name="Local" value="1.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="2.htm">
+		<param name="Name" value="图文混编形式">
 		<param name="Local" value="2.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="图片动画特效">
+		<param name="Local" value="3.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="表格Hover和隔行特效">
+		<param name="Local" value="4.htm">
 		</OBJECT>
 </UL>
 </BODY></HTML>
