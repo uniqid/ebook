@@ -1,0 +1,9 @@
+﻿body{padding:0;margin:0;}
+a{text-decoration: none;}
+#navmenu{width:100%;height:40px;line-height:40px;display:block;overflow:hidden;background:#0d182a url("../i/6_bg.jpg") repeat-x left center;}
+.menu>li{float:left;min-width:20px;padding:0 20px;background:#0d182a url("../i/6_fg.jpg") no-repeat 0 center;margin-left:-2px;}
+.menu>li>ul{display:none;}
+.menu a{color:#6ca7c7;display:block;height:40px;line-height:40px;width:100%;}
+.menu a:hover{color:#ff7b0e;}
+.menu>li.hov>ul{display:block;background:#0d182a;padding:0 20px 10px;position:absolute;top:40px;margin-left:-20px;}
+iframe{display:none;border:0;padding:0;margin:0;}

@@ -3,7 +3,7 @@ Auto Index=Yes
 Compatibility=1.1 or later
 Compiled file=ebook.chm
 Contents file=ebook.hhc
-Default topic=1.htm
+Default topic=6.htm
 Display compile progress=No
 Full-text search=Yes
 Index file=ebook.hhk
@@ -16,6 +16,7 @@ Language=0x804 中文(简体，中国)
 3.htm
 4.htm
 5.htm
+6.htm
 
 [INFOTYPES]
 

@@ -16,30 +16,23 @@ document.onkeydown = function(){
     if(typeof event == 'undefined'){
         return;
     }
-    var num = location.href.replace(/.*?(\d+)\.htm$/, '$1');
+    var src = '', obj, home_src = '6.htm',
+        num = location.href.replace(/.*?(\d+)\.htm$/, '$1');
         num = +num;
     if (event.keyCode == 37) {
         var prev = document.getElementById('_prev');
-        if(prev){
-            document.location= prev.href;
-        } else {
-            document.location= (num > 1? num-1: 1) + '.htm';
-        }
+        src = prev? prev.href: (num > 1? num-1: 1) + '.htm';
     }
     else if (event.keyCode == 39) {
         var next = document.getElementById('_next');
-        if(next){
-            document.location= next.href;
-        } else {
-            document.location= (num + 1) + '.htm';
-        }
+        src = next? next.href: (num + 1) + '.htm';
     }
     else if (event.keyCode == 13) {
         var home = document.getElementById('_home');
-        if(home){
-            document.location= home.href;
-        } else {
-            document.location= '1.htm';
-        }
+        src = home? home.href: home_src;
+    }
+    if(src != ''){
+        obj = (src == home_src) && window.parent? window.parent: document;
+        obj.location = src;
     }
 };

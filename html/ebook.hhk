@@ -25,5 +25,9 @@
 		<param name="Name" value="简单的显示隐藏">
 		<param name="Local" value="5.htm">
 		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="横向下拉菜单导航">
+		<param name="Local" value="6.htm">
+		</OBJECT>
 </UL>
 </BODY></HTML>
