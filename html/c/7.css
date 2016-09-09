@@ -1,0 +1,6 @@
+﻿body{overflow-x:hidden;padding:50px 60px;background:url('../i/7_1.jpg') repeat;}
+.page_nav>img{cursor:pointer;}
+#on_top{position:fixed;top:10px;width:100%;text-align:center;margin-left:-68px;}
+#on_bottom{position:fixed;bottom:10px;width:100%;text-align:center;margin-left:-68px;}
+#on_left{position:fixed;left:10px;top:50%;width:50px;}
+#on_right{position:fixed;right:10px;top:50%;width:50px;}

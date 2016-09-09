@@ -29,5 +29,9 @@
 		<param name="Name" value="横向下拉菜单导航">
 		<param name="Local" value="6.htm">
 		</OBJECT>
+    <LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="固定上下页和目录">
+        <param name="Local" value="7.htm">
+        </OBJECT>
 </UL>
 </BODY></HTML>
